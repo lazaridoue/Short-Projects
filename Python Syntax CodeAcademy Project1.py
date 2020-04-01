@@ -11,7 +11,7 @@ customer_one_total += lovely_loveseat_price+luxurious_lamp_price
 customer_one_itemization += lovely_loveseat_description+luxurious_lamp_description
 customer_one_tax = customer_one_total*sales_tax
 customer_one_total += customer_one_tax
-print("Customer One Items:")
-print(customer_one_itemization)
-print("Customer One Total:")
-print(customer_one_total)
+print("Customer One Items:" + customer_one_itemization)
+
+print("Customer One Total: $" + str(int(customer_one_total)))
+
